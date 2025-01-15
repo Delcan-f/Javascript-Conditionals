@@ -131,3 +131,22 @@ let displayName2 = username || "guest"
 console.log(displayName2)
 
 // Loops 
+
+// For Loop
+for (let i = 0; i < 5; i++) {
+    console.log(`This is iteration number ${i}`)
+}
+
+// while and do...while loop
+let j = 0
+
+while (j < 5) {
+    console.log(`J's value in while loop: ${j}`)
+    j++ 
+}
+
+let k = 0
+
+do {
+    console.log`K's value in do while loop: ${k}`
+} while (k < 5)
